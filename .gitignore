@@ -1,0 +1,29 @@
+# Xcode
+DerivedData/
+build/
+*.xcuserstate
+xcuserdata/
+*.moved-aside
+*.xccheckout
+*.xcscmblueprint
+
+# macOS
+.DS_Store
+
+# SwiftPM
+.build/
+.swiftpm/
+Packages/
+Package.resolved
+
+# Distribution
+dist/
+*.dSYM
+*.zip
+*.dmg
+
+# User data
+*.log
+
+# Local agent/app config
+.codex/
