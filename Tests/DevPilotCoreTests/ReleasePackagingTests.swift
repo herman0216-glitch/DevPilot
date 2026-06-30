@@ -24,8 +24,8 @@ final class ReleasePackagingTests: XCTestCase {
     let readme = try String(contentsOf: root.appendingPathComponent("README.md"), encoding: .utf8)
 
     XCTAssertTrue(readme.contains("DevPilot-v0.1.0-macOS.zip"))
-    XCTAssertTrue(readme.contains("Right-click DevPilot.app"))
-    XCTAssertTrue(readme.contains("Do not disable Gatekeeper"))
+    XCTAssertTrue(readme.contains("右键点击 `DevPilot.app`"))
+    XCTAssertTrue(readme.contains("不要关闭 Gatekeeper"))
     XCTAssertTrue(readme.contains("./Scripts/build_release.sh"))
   }
 }
